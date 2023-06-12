@@ -1,6 +1,9 @@
 [
-    {"name": "NobleMan MRD", "by": "a x b", "born": "21-04-2019", "forsale": "yes", "id": 1, "imageUrl": "src/data/horseimage/noblemanmrd.jpg"},
-    {"name": "Thomas van 't Wold", "by": "h x d", "born": "18-06-2015", "forsale": "no", "id": 2, "imageUrl": "src/data/horseimage/thomasvantwold.jpg"}
+    {"id": 1, "name": "NobleMan MRD", "by": "Fürstenball x San Amour", "born": "2018", "niveau": "M2 dressuur", "about": "ebgejrg", "forsale": "yes", "sold": "no", "imageUrl": "horseimage/noblemanmrd.jpg"},
+    {"id": 2, "name": "Thomas van 't Wold", "by": "Felle x Jakob", "born": "2013", "niveau": "Z2 dressuur", "about": "ebggwfhrtayejrg", "forsale": "no", "sold": "no", "imageUrl": "horseimage/thomasvantwold.jpg"},
+    {"id": 3, "name": "Gucci", "by": "Delatio x De Niro", "born": "2011", "niveau": "M1  dressuur", "about": "ebggwfhrtayejrg", "forsale": "yes", "sold": "no", "imageUrl": "horseimage/gucci.jpg"},
+    {"id": 4, "name": "Maximus", "by": "Macho Polo x Test", "born": "2017", "niveau": "Z1  dressuur", "about": "ebggwfhrtayejrg", "forsale": "no", "sold": "no", "imageUrl": "horseimage/maximus.jpg"},
+    {"id": 5, "name": "Jacquet", "by": "Desperado x De Niro", "born": "2016", "niveau": "L1  dressuur", "about": "ebggwfhrtayejrg", "forsale": "no", "sold": "yes", "imageUrl": "horseimage/jacquet.jpg"}
 ]
 
 

@@ -7,6 +7,7 @@ import NotFound from './components/NotFound';
 import Home from './pages/Home';
 import Horses from './pages/Horses';
 import HorseDetail from './pages/HorseDetail';
+import ForSale from './pages/ForSale';
 import AboutMe from './pages/AboutMe';
 import Instruction from './pages/Instruction';
 import Training from './pages/Training';
@@ -17,9 +18,8 @@ const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<Layout />}>
     <Route index element={<Home />}/>
     <Route path="aboutme" element={<AboutMe />}/>
-    <Route path="horses" element={<Horses />} > 
-      <Route path=":id" element={<HorseDetail />} />  
-      </Route>
+    <Route path="horses" element={<Horses />} /> 
+    <Route path="horses/:id" element={<HorseDetail />} />  
     <Route path="instruction" element={<Instruction />} />
     <Route path="training" element={<Training />} />
     <Route path="calendar" element={<Calendar />} />
