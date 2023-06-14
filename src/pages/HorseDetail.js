@@ -3,28 +3,28 @@ import { useParams } from "react-router-dom";
 import horsedata from "../data/horsedata.json"
 
 export default function HorseDetail () {
-
-    const [horses, setHorses] = React.useState(horsedata)
+    const [horses, setHorses] = React.useState(horsedata);
     const { id } = useParams();
-
-    const horseId = horses.find((horses) => horses.id === id);
-    console.log(horses)
-
+    const horseId = horses.find((horse) => horse.id === Number(id)); 
+  
     const horseElement = horseId ? (
-        <div key={horses.id} className="horse-details">
-            <h2>{horses.name}</h2> 
-            <h4>Afstamming: {horses.by}</h4>
-            <h4>Geboortejaar: {horses.born}</h4>
-            <img src={horses.imageUrl}/>
-            <div><p>Omschrijving: {horses.about}</p></div>
+        <div key={horseId.id} className="horse-details">
+            <div className="horse-detail-text">
+                <h3>{horseId.name}</h3>
+                <h5>Afstamming: {horseId.by}</h5>
+                <h5>Geboortejaar: {horseId.born}</h5>
+                <div><p>Omschrijving: {horseId.about} </p></div>
+            </div>
+            <div className="horse-details-photo">
+                <img src={horseId.imageUrl} alt={horseId.name}/>
+            </div>
         </div>
-    ) : <h3>Loading...</h3>
+    ) : <h3>Pagina niet gevonden...</h3> 
 
     return (
-        <div className="horse-detail-box"> 
+        <div className="horse-detail-box">
             {horseElement}
+            <div className="box-gold"></div>
         </div>
-    )
+    );
 }
-
-

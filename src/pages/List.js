@@ -11,8 +11,9 @@ export default function List ({ horses, title }) {
                     <div className="horse-display" key={horse.id}>
                         <Link to={`/horses/${horse.id}`} > 
                             <h4>{horse.name}</h4>
-                            <p>Afstamming: {horse.by}</p>
+                            <p>{horse.by}</p>
                             <img src={horse.imageUrl} alt="horse" className="horse-img"/> 
+                            <h6>Lees hier alles over {horse.name}</h6>
                         </Link>
                     </div>
                 ))}

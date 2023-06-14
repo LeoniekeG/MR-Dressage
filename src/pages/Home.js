@@ -8,7 +8,7 @@ import MRDressage26 from "../images/MRDressage26.jpg"
 export default function Home () {
     return (
         <div className="home">
-            <h1>Marrit Reussien Dressage</h1>
+            <h1>Marrit Reusien Dressage</h1>
             <div className="images-home">
                 <div>
                     <NavLink to="horses"><img src={MRDressage25} className="home-image" alt="dressage25"/></NavLink>
