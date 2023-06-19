@@ -7,7 +7,7 @@ export default function NavBar() {
     const activeStyles = {
         fontWeight: "bold",
         textDecoration: "underline",
-        color: "#CD6600"
+        color: "#8B7500"
     }
 
     return (

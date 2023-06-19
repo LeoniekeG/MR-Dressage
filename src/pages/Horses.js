@@ -1,5 +1,5 @@
 import React from "react";
-//import { Outlet, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import horsedata from "../data/horsedata.json"
 import List from "./List";
 
@@ -9,6 +9,9 @@ export default function Horses () {
  
     return (
         <div className="horses-box">
+            <div className="back-button-box-horses">
+                <Link to=".." relative="path" className="back-button-horse"> &larr; <span>Terug naar home</span></Link>
+            </div>
             <div className="horses">
                 <List horses={horses} title="Paarden:"/>
                 <List horses={horses.filter((horse) => horse.forsale === "yes")} title="Te koop:"/>

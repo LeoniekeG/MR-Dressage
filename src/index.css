@@ -35,7 +35,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #CD6600;
+  color: #8B7500;
 }
 
 .logo-image {
@@ -145,6 +145,7 @@ body {
   margin-bottom: 40px;
   padding-top: 25px;
   padding-bottom: 25px;
+  border: 2px solid wheat;
   border-radius: 5px;
 }
 
@@ -195,17 +196,79 @@ body {
   border-radius: 5px;
 }
 
-.box-contact a {
-  text-decoration: none;
+.home-bottom-image {
+  max-width: 175px;
+  height: 110px;
+  border: solid 2px #8B7500;
+  border-radius: 5px;
 }
 
-.home-contact-image {
-  max-width: 40px;
+.box-contact-for-sale {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.box-for-sale a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #000000;
+  border: 2px solid #8B7500;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  height: 110px;
+}
+
+.box-for-sale h4 {
+  margin-top: 40px;
+  padding-right: 20px;
+}
+
+.for-sale-image {
+  
+  height: 105px;
+} 
+
+.box-contact a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: #8B7500;
+  border: 2px solid wheat;
+  border-radius: 5px;
+  height: 110px;
+}
+
+.box-contact h4 {
+  align-items: center;
+  margin-top: 40px;
+  color: #0b0b0b;
+}
+
+.email-image {
+  width: 60px;
+  margin: 15px;
+}
+
+.phone-image {
+  width: 60px;
+  margin: 15px;
 }
 
 /* About Me */
 .about-me {
   background-color: #0b0b0b;
+}
+
+.back-button-about-me {
+  margin-left: 50px;
 }
 
 /* Horses */
@@ -249,9 +312,19 @@ body {
     width: 225px;
     height: 150px;
     object-fit: cover;
+    border-radius: 5px;
+}
+
+.back-button-box-horses {
+  margin-left: 70px;
+}
+
+.back-button-box-horses a {
+  text-decoration: none;
 }
 
 /* Horses details*/
+
 .horse-detail-box {
   background-color: #0b0b0b;
   margin-top: 15px;
@@ -262,13 +335,12 @@ body {
 
 .horse-details {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
   justify-content: space-around;
+  gap: 5px;
 }
 
 .horse-detail-text {
-  max-width: 400px;
   border: 5px solid wheat;
   border-radius: 5px;
   padding-top: 5px;
@@ -281,25 +353,55 @@ body {
   border: 5px solid #8B7500;
   border-radius: 5px;
   padding: 5px;
-}
+} 
 
 .horse-details-photo img {
   align-items: center;
+  width: 100%;
+  border-radius: 5px;
 }
 
-.box-gold {
-  background-image: linear-gradient(to right, #8B7500 25%, #CDAD00 45%, #8B7500 85%);
-  width: 80%;
-  height: 200px;
-  border-radius: 5px;
-  align-items: center;
-  margin: 25px;
+.back-button-box-horse-detail {
+  margin-bottom: 15px;
+}
+
+.back-button-horse-detail {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* For sale */
+
+.for-sale a {
+  text-decoration: none;
+}
+
+.back-button-for-sale {
+  text-decoration: none;
+  margin-left: 70px;
+}
+
+/* Instruction */
+
+.back-button-instruction {
+  margin-left: 50px;
+}
+
+/* Training */
+
+.back-button-trainig {
+  margin-left: 50px;
 }
 
 /* Calendar */
 
 .calendar {
   margin-left: 50px;
+}
+
+.back-button-calendar {
+  margin-left: 0px;
+  text-decoration: none;
 }
 
 .calendar-box {
@@ -323,6 +425,7 @@ body {
 
 .calendar-display button {
   color: #0b0b0b;
+  background-color: wheat;
 }
 
 .image-email {
@@ -330,6 +433,12 @@ body {
 }
 
 /* Contact */
+
 .contact {
   background-color: #0b0b0b;
+}
+
+.back-button-contact {
+  margin-left: 50px;
+  text-decoration: none;
 }

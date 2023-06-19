@@ -4,6 +4,11 @@ import MRDressage23 from "..//images/MRDressage23.jpg"
 import MRDressage24 from "../images/MRDressage24.jpg"
 import MRDressage25 from "../images/MRDressage25.jpg"
 import MRDressage26 from "../images/MRDressage26.jpg"
+import homeforsale from "../images/homeforsale.jpg"
+import email from "../images/email.png"
+import phone from "../images/Phone.png"
+import MRdressage8 from "../images/MRDressage8.jpg"
+import MRdressage9 from "../images/MRDressage9.jpg"
 
 export default function Home () {
     return (
@@ -42,10 +47,22 @@ export default function Home () {
                     <NavLink to="calendar"><button>Lees verder.....</button></NavLink>
                 </div>
             </div>
-            <div className="box-contact">
-                <NavLink to="contact">
-                <h4>Vragen of opmerkingen? Neem gerust contact met mij op. Klik hier voor mijn contactgegevens.</h4>
-                </NavLink>
+            <div className="box-contact-for-sale">
+                <div><img src={MRdressage9} className="home-bottom-image" alt="MRDressage9"/></div>
+                <div className="box-for-sale">
+                    <NavLink to="forsale">
+                        <img src={homeforsale} className="for-sale-image" alt="TeKoop"/>
+                        <h4>Paarden te koop</h4>
+                    </NavLink>
+                </div>
+                <div className="box-contact">
+                    <NavLink to="contact">
+                        <img src={email} className="email-image" alt="E-mail"/>
+                        <h4>Contact</h4>
+                        <img src={phone} className="phone-image" alt="Phone"/>
+                    </NavLink>
+                </div>
+                <div><img src={MRdressage8} className="home-bottom-image" alt="MRDressage8"/></div>
             </div>
         </div>
     )
