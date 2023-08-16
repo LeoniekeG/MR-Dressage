@@ -1,6 +1,8 @@
 import React from "react"
-import facebook from "../images/facebook.png"
-import instagram from "../images/instagram.png"
+//import instagrambutton from "../images/instagrambutton.png"
+//import facebookbutton from "../images/facebookbutton.png"
+import buttonfacebook from "../images/buttonfacebook.png"
+import buttoninstagram from "../images/buttoninstagram.png"
 
 export default function Footer() {
 
@@ -9,9 +11,9 @@ export default function Footer() {
             <div className="footer-buttonbox">
                 <h3 className="footer-text">Volg het laatste nieuws op:</h3>
 
-                <a href="https://www.facebook.com/marritfardau"  target="blank"><button className="footer-button"><img src={facebook} className="fb-image-footer" /></button></a>
+                <a href="https://www.facebook.com/marritfardau"  target="blank"><img src={buttonfacebook} className="fb-image-footer" /></a>
                 
-                <a href="https://www.instagram.com/marritreusien_dressage/" target="blank"><button className="footer-button"><img src={instagram} className="insta-image-footer" /></button></a>
+                <a href="https://www.instagram.com/marritreusien_dressage/" target="blank"><img src={buttoninstagram} className="insta-image-footer" /></a>
 
                 <h3 className="footer-text">©Marrit Reusien Dressage</h3>
             </div>
@@ -21,9 +23,3 @@ export default function Footer() {
         </div>
     )
 }
-
-/*
-
-<a href="https://www.instagram.com/marritreusien_dressage/" target="blank"><button className="footer-button">Instagram</button></a
-
-*/

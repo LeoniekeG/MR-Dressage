@@ -19,6 +19,7 @@ export default function NavBar() {
                 <NavLink to="horses" style={({ isActive }) => isActive ? activeStyles : null}>Paarden</NavLink>
                 <NavLink to="instruction" style={({ isActive }) => isActive ? activeStyles : null}>Instructie</NavLink>
                 <NavLink to="training" style={({ isActive }) => isActive ? activeStyles : null}>Training</NavLink>
+                <NavLink to="horsetaxi" style={({ isActive }) => isActive ? activeStyles : null}>Paardentaxi</NavLink>
                 <NavLink to="calendar" style={({ isActive }) => isActive ? activeStyles : null}>Kalender</NavLink>
                 <NavLink to="contact" style={({ isActive }) => isActive ? activeStyles : null}>Contact</NavLink>
             </div>

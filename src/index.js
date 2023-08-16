@@ -11,6 +11,7 @@ import ForSale from './pages/ForSale';
 import AboutMe from './pages/AboutMe';
 import Instruction from './pages/Instruction';
 import Training from './pages/Training';
+import HorseTaxi from './pages/HorseTaxi';
 import Calendar from './pages/Calendar';
 import Contact from './pages/Contact';
 
@@ -23,6 +24,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="horses/:id" element={<HorseDetail />} />  
     <Route path="instruction" element={<Instruction />} />
     <Route path="training" element={<Training />} />
+    <Route path="horsetaxi" element={<HorseTaxi />} />
     <Route path="calendar" element={<Calendar />} />
     <Route path="contact" element={<Contact />}/>
   

@@ -10,7 +10,8 @@ export default function HorseDetail () {
     const horseElement = horseId ? (
         <div key={horseId.id} className="horse-details">
             <div className="horse-detail-text">
-                <div style={horseId.forsale === "yes" ? {display: "block"} : {display: "none"}}><h2>Te Koop:</h2></div>
+                <div style={horseId.forsale === "yes" ? {display: "block"} : {display: "none"}}><h3>Te Koop:</h3></div>
+                <div style={horseId.sold === "yes" ? {display: "block"} : {display: "none"}}><h3>Verkocht</h3></div>
                 <h3>{horseId.name}</h3>
                 <h5>Afstamming: {horseId.by}</h5>
                 <h5>Geboortejaar: {horseId.born}</h5>
@@ -32,16 +33,3 @@ export default function HorseDetail () {
         </div>
     );
 }
-
-/*
-<h5 style={forSale ? {display: "block"} : { display: "none"}}>Te koop: Ja</h5>
-
-const forSaleElement = forSale ? (
-        <div style={forSale ? {display: "block"} : { display: "none"}}>
-            <h3>Te koop</h3>
-        </div>
-    ) : ""
-
-
-
-*/
