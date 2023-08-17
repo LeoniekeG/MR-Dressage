@@ -11,9 +11,9 @@ export default function Footer() {
             <div className="footer-buttonbox">
                 <h3 className="footer-text">Volg het laatste nieuws op:</h3>
 
-                <a href="https://www.facebook.com/marritfardau"  target="blank"><img src={buttonfacebook} className="fb-image-footer" /></a>
+                <a href="https://www.facebook.com/marritfardau"  target="blank"><img src={buttonfacebook} className="fb-image-footer" alt="footer"/></a>
                 
-                <a href="https://www.instagram.com/marritreusien_dressage/" target="blank"><img src={buttoninstagram} className="insta-image-footer" /></a>
+                <a href="https://www.instagram.com/marritreusien_dressage/" target="blank"><img src={buttoninstagram} className="insta-image-footer" alt="footer"/></a>
 
                 <h3 className="footer-text">©Marrit Reusien Dressage</h3>
             </div>

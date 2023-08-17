@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import horsedata from "../data/horsedata.json"
 import List from "./List";
 
