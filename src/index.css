@@ -672,7 +672,7 @@ body {
   width: 125px;
   position: absolute;
   margin-top: 50px;
-  margin-left: 0px;
+  margin-left: -130px;
   animation-name: drive;
   animation-duration: 8s;
   animation-fill-mode: both;

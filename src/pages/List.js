@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function List ({ horses, title }) {
+export default function List ({ horses, title }) { 
 
     return (
         <div className="list">
