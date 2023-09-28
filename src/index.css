@@ -724,6 +724,7 @@ body {
 /* Contact */
 
 .contact {
+  margin-top: 125px;
   margin-left: 50px;
   background-color: #0b0b0b;
 }
